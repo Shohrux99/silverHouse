@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;    
+    text-decoration: none;
+}
+
+    /* HEADER START */    
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    margin-top: 59px;
+    margin-bottom: 50px;
+    
+}
+header li a{
+    padding-bottom: 14px;
+    border: 1px solid white;
+    margin-right: 47px;
+    color: #bab9b9;
+    display: block;
+    transition: color 0.5s;
+}
+header li a:hover{
+    color: #4581b7;
+    border-bottom: 1px solid #4581b7;
+}
+
+/* HEADER END */
+
+
+/* MAIN START */
+
+main{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.main_info{
+    display: flex;
+    width: 1110px;
+    margin: auto;
+}
+.useful{
+    width: 700px;
+    height: 500px;
+    background-color: #f0f0f0;
+    margin-right: 30px;
+    padding: 50px 120px 0px 40px;
+}
+.useful h2{
+    font-family: Roboto-bold;
+    font-size: 20px;
+    color: #4581b7;
+    margin-bottom: 25px;
+}
+.useful p{
+    color: #7f7f7f;
+    font-family: Roboto-regular;
+    font-size: 16px;
+    line-height: 27px;
+}
+.info{
+   width: 350px;
+   height: 500; 
+   background-color: #f0f0f0;
+   padding: 50px 54px 182px 40px;
+}
+.info h2{
+    font-family: Roboto-bold;
+    font-size: 20px;
+    color: #4581b7;
+    margin-bottom: 30px;
+}
+.info p{
+    color: #7f7f7f;
+    font-family: Roboto-regular;
+    font-size: 16px;
+    line-height: 27px;
+}
+.right_p1{
+    margin-bottom: 48px;
+}
+.right_p2{
+    margin-bottom: 51px; 
+}
+/* MAIN END */
+
+
+/* FOOTER START */
+footer{
+    width: 1110px;
+    margin: auto;
+}
+.foot{
+    background: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 41px 14px 41px;    
+}
+.number_info{
+    padding-top: 40px;
+    padding-bottom: 67px;
+}
+footer .number_top {
+    color: #808080;
+    font-size: 16px;
+    font-family: Roboto-regular;
+    margin-bottom: 8px;
+}
+footer .number{
+    color: #808080;
+    font-family: Roboto-bold;
+    font-size: 25px;
+     
+}
+
+/* FOOTER END */
